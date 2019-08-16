@@ -2,7 +2,7 @@
 
 case $1 in
 	install)
-		wget https://raw.githubusercontent.com/a512154224/share/master/pgyvpn.tar.gz /root
+		wget https://raw.githubusercontent.com/a512154224/share/master/dsm_pgyvpn/pgyvpn.tar.gz /root
 		mkdir /root/pgyvpninstall>/dev/null 2>&1
 		mkdir /etc/pgyvpn>/dev/null 2>&1
 		tar zxf pgyvpn.tar.gz -C /root/pgyvpninstall/
