@@ -1,0 +1,16 @@
+By 四天
+
+一、自动安装：
+
+wget https://github.com/a512154224/share/raw/master/dsm_pgyvpn/pgyvpn_install.sh && sh pgyvpn_install.sh install
+
+二、手动安装：
+
+1、解压pgyvpn.tar.gz
+2、把pgyvpn/usr/sbin下的文件拷贝的/usr/sbin下
+3、把pgyvpn/usr/share/下的pgyvpn目录拷贝到/usr/share/下
+4、把pgyvpn下的.pgyvpnlib目录拷贝到/root下
+5、./pgyvpn start启动
+6、再输入pgyvpn回车，愉快的玩耍吧
+
+已知bug，关闭或退出后，如果组员数已满，只能登录花生壳蒲公英删除这个组员再重新登录
